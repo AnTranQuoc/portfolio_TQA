@@ -6,6 +6,10 @@ This is a portfolio website built with Next.js and Tailwind CSS. It showcases yo
 
 Install the dependencies: `npm install`
 
+```
+npm install tailwindcss postcss autoprefixer
+```
+
 ## Usage
 
 1. Start the development server: `npm run dev`
