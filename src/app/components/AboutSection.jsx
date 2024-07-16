@@ -12,7 +12,7 @@ const TAB_DATA = [
         <li>Languages: CSS, TypeScript, JavaScript, Python, C#, C++</li>
         <li>Libraries & Frameworks: ReactJS, ReactNative, React Hooks, Material UI, Vitejs, TailwindCSS, Next.js</li>
         <li>Design Tools: Photoshop, canva</li>
-        <li>Other: Git, Restful API, SQLsever, GraphQL</li>
+        <li>Other: Git, SQLsever, MySQL, FireBase</li>
       </ul>
     ),
   },
@@ -23,7 +23,6 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>University of Information Technology - UIT (2021 – present)</li>
         <li>Major: Computer Science</li>
-        <li>GPA: 8/10</li>
       </ul>
     ),
   },
@@ -55,10 +54,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            A web developer proficient in CSS, JavaScript, React. Possessing a fundamental understanding
-            of Three.js for 3D manipulation and Leaflet for geographic map handling. I am driven to utilize
-            my knowledge, skills, and programming experience to craft software with exceptional features,
-            enhancing the company&apos;s reputation and attracting a diverse customer base.
+          A web developer proficient in CSS, JavaScript, React. Possessing a fundamental
+           understanding of Three.js for 3D manipulation. With my knowledge, skills, and
+            my programming experience in building website involving exceptional features,
+             I believe that I could contribute in the company&apos;s development.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

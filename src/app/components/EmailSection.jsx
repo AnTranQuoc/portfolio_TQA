@@ -23,10 +23,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/AnTranQuoc">
+          <Link href="https://github.com/AnTranQuoc" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/an-tr%E1%BA%A7n-qu%E1%BB%91c-0654a5319/">
+          <Link href="https://www.linkedin.com/in/an-tr%E1%BA%A7n-qu%E1%BB%91c-0654a5319/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
