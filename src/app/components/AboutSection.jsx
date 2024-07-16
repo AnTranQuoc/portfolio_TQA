@@ -22,8 +22,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>University of Information Technology - UIT (2021 – present)</li>
-                  <li>Major: Computer Science</li>
-                  <li>GPA: 8/10</li>
+        <li>Major: Computer Science</li>
+        <li>GPA: 8/10</li>
       </ul>
     ),
   },
@@ -51,36 +51,33 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/TQA.jpg" width={500} height={500} />
+        <Image src="/images/TQA.jpg" width={500} height={500} alt="Profile picture" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-           A web developer proficient in CSS, JavaScript, React. Possessing a fundamental understanding
-           of Three.js for 3D manipulation and Leaflet for geographic map handling. I am driven to utilize
-           my knowledge, skills, and programming experience to craft software with exceptional features,
-           enhancing the company's reputation and attracting a diverse customer base.
+            A web developer proficient in CSS, JavaScript, React. Possessing a fundamental understanding
+            of Three.js for 3D manipulation and Leaflet for geographic map handling. I am driven to utilize
+            my knowledge, skills, and programming experience to craft software with exceptional features,
+            enhancing the company&apos;s reputation and attracting a diverse customer base.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              {" "}
-              Certifications{" "}
+              Certifications
             </TabButton>
           </div>
           <div className="mt-8">
