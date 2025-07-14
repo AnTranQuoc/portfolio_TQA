@@ -9,10 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Languages: CSS, TypeScript, JavaScript, Python, C#, C++</li>
-        <li>Libraries & Frameworks: ReactJS, ReactNative, React Hooks, Material UI, Vitejs, TailwindCSS, Next.js</li>
-        <li>Design Tools: Photoshop, canva</li>
-        <li>Other: Git, SQLsever, MySQL, FireBase</li>
+        <li>Languages: Python, CSS, TypeScript, JavaScript, C#, C++, etc.</li>
+        <li>Libraries & Frameworks: Scikit-learn, TensorFlow, PyTorch, OpenCV, Scikit-learn, React, etc.</li>
+        <li>Design Tools: Photoshop, canva, capcut, etc.</li>
+        <li>Other: Git, SQLsever, MySQL, FireBase, Mongo, etc.</li>
       </ul>
     ),
   },
@@ -31,7 +31,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-         <li>Equivalent to 650 Toeic</li>
+         <li>TOEIC 635 Listening and Reading</li>
+         <li>TOEIC 260 Speaking and Writing</li>
       </ul>
     ),
   },
@@ -54,10 +55,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          A web developer proficient in CSS, JavaScript, React. Possessing a fundamental
-           understanding of Three.js for 3D manipulation. With my knowledge, skills, and
-            my programming experience in building website involving exceptional features,
-             I believe that I could contribute in the company&apos;s development.
+         As a dedicated computer science student, I possess robust programming
+          skills and a profound passion for data. My primary goal is to secure
+           an internship in Machine Learning where I can leverage my expertise
+            in Python, algorithms, and data analysis to make tangible contributions
+             to impactful projects. I am committed to continuous professional growth
+              and eager to apply my skills in practical settings.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
