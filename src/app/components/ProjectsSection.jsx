@@ -34,12 +34,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "3D maze game with Three.JS",
-    description: "A simple maze game with first-person perspective. Using Javascript, HTML combined with ThreeJS.",
-    image: "/images/projects/2.png",
-    tag: ["All", "Game"],
-    gitUrl: "https://github.com/AnTranQuoc/MazeWebGame",
-    previewUrl: "https://antranquoc.github.io/MazeWebGame/",
+    title: "Hand Gesture Recognition",
+    description: "Real-time hand gesture recognition from keypoint data extracted using MediaPipe, powered by a TransformerEncoder model.",
+    image: "/images/projects/Hand_Gesture_Recognition.png",
+    tag: ["All", "AI"],
+    gitUrl: "https://github.com/AnTranQuoc/Hand_Gesture_Recognition",
+    previewUrl: "https://github.com/AnTranQuoc/Hand_Gesture_Recognition",
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("AI");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -114,8 +114,8 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+          name="AI"
+          isSelected={tag === "AI"}
         />
         <ProjectTag
           onClick={handleTagChange}
@@ -129,8 +129,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="AI"
-          isSelected={tag === "AI"}
+          name="All"
+          isSelected={tag === "All"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
